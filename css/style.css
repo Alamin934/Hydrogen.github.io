@@ -1,0 +1,349 @@
+/* ==== Global Part ==== */
+html{
+	scroll-behavior:smooth;
+}
+body{
+	font-family:montserrat;
+}
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h1 {
+    font-size: 2.25rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: 700;
+    line-height: 2.3rem;
+    font-size: 1.6rem;
+}
+h3 {
+    font-weight: 700;
+	color:#242423;
+}
+
+h4 {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+p {
+    color: #393939cc;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 20px auto;
+}
+hr{
+	border-top: 1px solid rgb(255,255,255);
+	margin-top: 60px;
+	margin-bottom: 0;
+}
+.btn{
+	font-weight: 700;
+}
+/*-- ==== Theme Css ==== --*/
+
+/*-- ==== Address Part ==== --*/
+#address{
+	background: #ECF6F8;
+	color: #737579;
+	font-size: .7rem;
+	font-weight: 500;
+}
+#address span{
+	margin: auto 10px;
+}
+.social i{
+	margin: auto 5px;
+	font-size:.9rem;
+}
+.fa-facebook-f{
+	color: #4064AC;
+}
+.fa-linkedin-in{
+	color: #0E72A3;
+}
+.fa-google-plus-g{
+	color: #db3236;
+}
+.fa-twitter{
+	color: #00acee;
+}
+/*-- ==== Header Part ==== --*/
+header{
+	box-shadow: 0px 0px 10px #2e2e2e;
+}
+.navbar{
+	background:#fff;
+}
+#navbarNav ul>li>a{
+	color:#000;
+	font-size: .8rem;
+}
+#navbarNav ul>li>a.active{
+	color:#007bff;
+}
+/*-- ==== Home Part ==== --*/
+#home{
+	background:url('../image/home.jpg') no-repeat top;
+	background-size:cover;
+	padding-top:220px;
+	padding-bottom:150px;
+}
+#home h4{
+	margin-bottom:15px;
+	font-size:1.5rem;
+}
+#home h2{
+	line-height: 3.5rem;
+    font-size: 2.8rem;
+}
+
+#home p{
+	font-size: 1.38rem;
+	color:#242423;
+	font-weight: 400;
+}
+/*-- ==== About Part ==== --*/
+#about img{
+	width:100%;
+	height: 230px;
+	margin-bottom:15px;
+}
+#about i{
+	color: DodgerBlue;
+}
+/*-- ==== Full Story Part ==== --*/
+#full-story{
+	background:DodgerBlue;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#full-story H2{
+	color: #fff;
+}
+#full-story p{
+	margin-bottom:0;
+	color: #fff;
+}
+/*-- ==== Services Part ==== --*/
+#services .part1 {
+    background: url('../image/serve.jpg') no-repeat center;
+    background-size: cover;
+    height: 337px;
+    text-align: center;
+}
+#services .part1 i {
+    color: #ffffffab;
+    font-size: 80px;
+    margin-top: 140px;
+}
+#services .part2 p {
+    margin: 38px auto;
+}
+/*-- ==== Projects Part ==== --*/
+#projects{
+	background:DodgerBlue;
+}
+#projects h2{
+	color:#fff;
+}
+#projects p{
+	color:#fff;
+	width: 74%;
+    margin-left: 0px;
+}
+.projects-img{
+	float:left;
+	margin-right:15px;
+}
+.projects-img img{
+	height: 55px;
+	margin-top:5px;
+}
+.projects-info h3{
+	color:#fff;
+	font-size:1.8rem;
+	margin-bottom: 5px;
+}
+.projects-info h5{
+	font-size:1rem;
+}
+.projects-content2 img{
+	height: 90%;
+    margin-top: -58%;
+    position: absolute;
+    right: -30%;
+}
+/*-- ==== Projects2 Part ==== --*/
+#projects2 .part1 p {
+    margin: 38px auto;
+}
+#projects2 .part2 img{
+    width:100%;
+}
+/*-- ==== Contect Part ==== --*/
+#contact {
+    background: #222222;
+	position: relative;
+	padding-top: 127px;
+    padding-bottom: 138px;
+}
+#contact img {
+    top: -51.5%;
+    position: absolute;
+    left: -20%;
+}
+.form-control-lg,
+.custom-select-lg,
+.btn-lg{
+	font-size: 1rem!Important;
+}
+/*-- ==== Client Part ==== --*/
+#client .client-info{
+	text-align:center;
+	width: 50%;
+	margin:auto;
+}
+.client-info h2{
+	font-weight:600;
+}
+.client-info p{
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+/*-- ==== Logos Part ==== --*/
+#logos{
+	background:url('../image/logos.png') no-repeat;
+	background-size:cover;
+	background-position: center;
+	padding-top: 20px;
+}
+/*-- ==== News Part ==== --*/
+#news{
+	background: #F3F3F3;
+}
+#news .news-info{
+	text-align:center;
+	width: 50%;
+	margin:auto;
+}
+.news-info h2{
+	font-weight:600;
+}
+.news-info p{
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+#news .content{
+	background:#fff;
+	box-shadow:2px 2px 5px #a7a7a7;
+}
+#news .box{
+	padding:25px;
+}
+#news .content h3{
+	margin-top: 5px;
+	font-size:.8rem;
+}
+#news .content p{
+	margin:15px auto;
+	font-weight:400;
+	font-size: .7rem;
+}
+#news .content small{
+	color: #393939;
+	font-size: 0.7rem;
+}
+/*-- ==== Footer Part ==== --*/
+#footer{
+	background:#222222;
+	color: #fff;
+}
+/*-- ==== Footer Social Icon ==== --*/
+.social-footer ul{
+	list-style:none;
+	float: right;
+}
+.social-footer ul li{
+	margin: auto 5px;
+	display:inline;
+}
+.social-footer ul li i{
+	width: 30px;
+	height: 30px;
+	color: #fff ;
+	border-radius:50%;
+	text-align:center;
+	padding-top: 8px;
+}
+.social-footer .fa-facebook-f{
+	background: #4064AC;
+}
+.social-footer .fa-linkedin-in{
+	background: #0E72A3;
+}
+.social-footer .fa-google-plus-g{
+	background: #db3236;
+}
+.social-footer .fa-twitter{
+	background: #00acee;
+}
+/*-- ==== Footer Address ==== --*/
+/*-- ==== Footer Recent Post 1 ==== --*/
+.post-img{
+	float:left;
+}
+.post-img img{
+	width:70px;
+	height:65px;
+	margin-right: 10px;
+}
+/*-- ==== Footer Copyright ==== --*/
+#copyright p,
+#copyright a{
+	color: #fff;
+	font-size:.7rem;
+}
+/*-- ==== Footer Privacy ==== --*/
+
+#privacy p{
+	color: #fff;
+	font-size:.7rem;
+	display:inline;
+	margin-left: 10px;
+}
+/*-- ==== Media Query ==== --*/
+@media(max-width:1199.98px){
+	.projects-content2 img{
+		height: 70%;
+		margin-top: -65%;
+		position: absolute;
+		right: -15%;
+	}
+	#client .client-info{
+		width: 80%;
+	}
+	#news .news-info{
+		width: 80%;
+	}
+}
+@media(max-width:767px){
+	#home{
+		padding-top:140px;
+		padding-bottom:100px;
+	}
+	#home h4{
+		font-size: 1.125rem;
+	}
+	#home h2{
+		font-size: 2.5rem;
+		line-height:3rem;
+	}
+	#home p{
+		font-size: 1rem;
+	}
+}
